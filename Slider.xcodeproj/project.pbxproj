@@ -11,6 +11,11 @@
 		09148FD72A9CC9FB0063AF31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09148FD62A9CC9FB0063AF31 /* ContentView.swift */; };
 		09148FD92A9CC9FE0063AF31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09148FD82A9CC9FE0063AF31 /* Assets.xcassets */; };
 		09148FDD2A9CC9FE0063AF31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09148FDC2A9CC9FE0063AF31 /* Preview Assets.xcassets */; };
+		091CE5FD2A9DAC4B00A057F7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091CE5FC2A9DAC4B00A057F7 /* MainView.swift */; };
+		091CE5FF2A9DB67800A057F7 /* TabButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091CE5FE2A9DB67800A057F7 /* TabButtons.swift */; };
+		091CE6012A9DC04400A057F7 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091CE6002A9DC04400A057F7 /* CustomCorners.swift */; };
+		091CE6032A9DC74300A057F7 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091CE6022A9DC74300A057F7 /* SideMenu.swift */; };
+		091CE6052A9DCFE100A057F7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091CE6042A9DCFE100A057F7 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		09148FD82A9CC9FE0063AF31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09148FDA2A9CC9FE0063AF31 /* Slider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slider.entitlements; sourceTree = "<group>"; };
 		09148FDC2A9CC9FE0063AF31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		091CE5FC2A9DAC4B00A057F7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		091CE5FE2A9DB67800A057F7 /* TabButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButtons.swift; sourceTree = "<group>"; };
+		091CE6002A9DC04400A057F7 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		091CE6022A9DC74300A057F7 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		091CE6042A9DCFE100A057F7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 		09148FD32A9CC9FB0063AF31 /* Slider */ = {
 			isa = PBXGroup;
 			children = (
+				091CE5FB2A9DAC2C00A057F7 /* Views */,
 				09148FD42A9CC9FB0063AF31 /* SliderApp.swift */,
 				09148FD62A9CC9FB0063AF31 /* ContentView.swift */,
 				09148FD82A9CC9FE0063AF31 /* Assets.xcassets */,
@@ -67,6 +78,18 @@
 				09148FDC2A9CC9FE0063AF31 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		091CE5FB2A9DAC2C00A057F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				091CE5FC2A9DAC4B00A057F7 /* MainView.swift */,
+				091CE5FE2A9DB67800A057F7 /* TabButtons.swift */,
+				091CE6002A9DC04400A057F7 /* CustomCorners.swift */,
+				091CE6022A9DC74300A057F7 /* SideMenu.swift */,
+				091CE6042A9DCFE100A057F7 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +163,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				09148FD72A9CC9FB0063AF31 /* ContentView.swift in Sources */,
+				091CE6052A9DCFE100A057F7 /* HomeView.swift in Sources */,
+				091CE5FF2A9DB67800A057F7 /* TabButtons.swift in Sources */,
+				091CE5FD2A9DAC4B00A057F7 /* MainView.swift in Sources */,
+				091CE6032A9DC74300A057F7 /* SideMenu.swift in Sources */,
 				09148FD52A9CC9FB0063AF31 /* SliderApp.swift in Sources */,
+				091CE6012A9DC04400A057F7 /* CustomCorners.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
